@@ -85,7 +85,7 @@ display: flex;
 gap: 40px;
 }
 
-.header-menu-item {
+.header-menu-items {
   display: block;
 }
 
@@ -101,6 +101,19 @@ gap: 40px;
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+  position: relative;
+}
+
+.header-menu-link:after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+background-color: #404bbf;
+  content: "";
 }
 
 .address {
@@ -139,6 +152,14 @@ color: #434455;
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/hero-bgd.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .hero-title {
