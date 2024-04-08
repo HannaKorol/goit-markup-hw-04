@@ -104,12 +104,12 @@ gap: 40px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+    color: #404bbf;
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
-  position: relative;
 }
 
 .header-menu-link:after {
@@ -552,6 +552,7 @@ fill: #f4f4fd;
 .footer-icon-item {
   margin-bottom: 8px;
   height: 40px;
+  width: 40px;
 }
 
 /* ---------------------END end--------------------------------- */
