@@ -91,6 +91,7 @@ gap: 40px;
 .header-menu-item {
   display: block;
   position: relative;
+  color: #404bbf;
 }
 
 .header-menu-link {
