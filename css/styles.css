@@ -101,6 +101,17 @@ gap: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  position: relative;
+}
+
+
+.header-menu-link-hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -108,12 +119,12 @@ gap: 40px;
   color: #404bbf;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link-hover:hover,
+.header-menu-link-hover:focus {
   color: #404bbf;
 }
 
-.header-menu-link:after {
+.header-menu-link-hover:after {
   content: "";
   position: absolute;
   left: 0;
@@ -469,7 +480,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .footer-background {
 color:#2e2f42;
-  gap: 120px;
   display: flex;
   align-items: baseline;
 
